@@ -1,14 +1,83 @@
-.div1 {
-	width: 300px;
+/* Base CSS */
+
+* {
+	margin: 0px;
+ 	box-sizing: border-box;
+}
+
+body {
+	background-color: #eeeded;
+	color: #555;
+	font-weight: 300px;
+	font-size: 16px;
+	font-family: arial, helvetica, sans-serif;
+	line-height: 2;
+}
+
+/* Links */
+a , :visited {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	color: black;
+}
+
+/* navigarion */
+.navigation {
+	height: 150px;
+	background-color: #3299cc;
+}
+
+.nav-logo {
+	float: left;
+	position: absolute;
+	left: 100px;
+	top: 45px;
+}
+
+.menu li {
+	display: inline;
+	font-weight: bold;
+	font-size: 15px;
+	font-family: sans-serif;
+	margin: 15px;
+	text-align: left;
+	color: white;
+	
+}
+
+.menu { 
+	float: right;
+	position: absolute;
+	top: 65px;
+	right: 100px;
+
+	
+}
+
+/* Content*/
+
+#Section1, #Section3 {
 	height: 300px;
-	background-color: red;
-	border: 1px solid black;
-	overflow: auto;
-	text-align: justify;
-
+	padding: 50px;
 }
 
-.presentation {
-	padding: 10px;
-	font: 12px sans-serif;
+#Section2 {
+	background-color: white;
+	height: 500px;
+	padding: 50px;
 }
+
+#Section3 {
+	clear:both;
+}
+#work1, #work2, #work3 {
+ float:left;
+ width: 300px;
+ height: 300px;
+ background-color: red;
+ border: 1px solid black;
+ margin: 50px;
+ }
